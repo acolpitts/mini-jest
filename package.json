@@ -1,0 +1,11 @@
+{
+  "name": "mini-jest",
+  "description": "A simple JavaScript assertion library",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --require ./mini-jest.js simple.test.js"
+  },
+  "author": "Adam Colpitts <adam@completeperspective.com>",
+  "license": "ISC"
+}
