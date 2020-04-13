@@ -1,4 +1,4 @@
-const { sum, subtract, multiplyAsync } = require("./simple");
+const { sum, subtract, multiply, multiplyAsync } = require("./simple");
 
 let result, expected;
 
@@ -11,6 +11,12 @@ test("it should add two numbers", () => {
 test("it should subtract two numbers", () => {
   result = subtract(7, 4);
   expected = 3;
+  expect(result).toBe(expected);
+});
+
+test("it should multiply two numbers", () => {
+  result = multiply(7, 4);
+  expected = 28;
   expect(result).toBe(expected);
 });
 

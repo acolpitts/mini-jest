@@ -1,3 +1,4 @@
+/** Executes a test */
 async function test(title, callback) {
   try {
     await callback();
@@ -8,6 +9,7 @@ async function test(title, callback) {
   }
 }
 
+/** Asserts two arguments are equal */
 function expect(actual) {
   return {
     toBe(expected) {
@@ -18,5 +20,6 @@ function expect(actual) {
   };
 }
 
+// Global Export
 global.test = test;
 global.expect = expect;

@@ -1,8 +1,8 @@
 {
   "name": "mini-jest",
-  "description": "A simple JavaScript assertion library",
+  "description": "A simple JavaScript assertion library example",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "mini-jest.js",
   "scripts": {
     "test": "node --require ./mini-jest.js simple.test.js"
   },
